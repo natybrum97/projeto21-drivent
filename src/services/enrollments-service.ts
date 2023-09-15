@@ -1,18 +1,34 @@
 import { Address, Enrollment } from '@prisma/client';
 import { request } from '@/utils/request';
-import { notFoundError } from '@/errors';
+import { invalidDataError, notFoundError } from '@/errors';
 import { addressRepository, CreateAddressParams, enrollmentRepository, CreateEnrollmentParams } from '@/repositories';
 import { exclude } from '@/utils/prisma-utils';
 
 // TODO - Receber o CEP por parâmetro nesta função.
-async function getAddressFromCEP() {
+async function getAddressFromCEP(cep: string) {
   // FIXME: está com CEP fixo!
-  const result = await request.get(`${process.env.VIA_CEP_API}/37440000/json/`);
+  const result = await request.get(`${process.env.VIA_CEP_API}/${cep}/json/`);
+ 
+ // TODO: Tratar regras de negócio e lanças eventuais erros
+  if (result.status === 200) {
+    // Verificar se a resposta contém um campo "erro" com valor "true"
+    if (result.data.erro && result.data.erro === true) throw invalidDataError('CEP não encontrado');
 
-  // TODO: Tratar regras de negócio e lanças eventuais erros
+    // Mapear os campos relevantes da resposta
+     // FIXME: não estamos interessados em todos os campos
+    const addressData = {
+      logradouro: result.data.logradouro,
+      complemento: result.data.complemento,
+      bairro: result.data.bairro,
+      cidade: result.data.localidade,
+      uf: result.data.uf,
+    };
 
-  // FIXME: não estamos interessados em todos os campos
-  return result.data;
+    // Retornar os dados do endereço mapeados
+    return addressData;
+  } else if (result.status === 400) throw invalidDataError('CEP inválido');
+    // Erro de formato inválido
+ 
 }
 
 async function getOneWithAddressByUserId(userId: number): Promise<GetOneWithAddressByUserIdResult> {
@@ -45,6 +61,15 @@ async function createOrUpdateEnrollmentWithAddress(params: CreateOrUpdateEnrollm
   const address = getAddressForUpsert(params.address);
 
   // TODO - Verificar se o CEP é válido antes de associar ao enrollment.
+    const result = await request.get(`${process.env.VIA_CEP_API}/${params.address.cep}/json/`);
+ 
+ // TODO: Tratar regras de negócio e lanças eventuais erros
+  if (result.status === 200) {
+    // Verificar se a resposta contém um campo "erro" com valor "true"
+    if (result.data.erro && result.data.erro === true) throw invalidDataError('CEP não encontrado');
+
+  } else throw invalidDataError('CEP inválido');
+    // Erro de formato inválido
 
   const newEnrollment = await enrollmentRepository.upsert(params.userId, enrollment, exclude(enrollment, 'userId'));
 
