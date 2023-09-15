@@ -7,5 +7,7 @@ export async function singInPost(req: Request, res: Response) {
 
   const result = await authenticationService.signIn({ email, password });
 
+  console.log(result);
+
   return res.status(httpStatus.OK).send(result);
 }
