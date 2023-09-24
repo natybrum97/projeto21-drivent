@@ -23,6 +23,7 @@ export async function getTickets(req: AuthenticatedRequest, res: Response) {
 
   export async function createTickets(req: AuthenticatedRequest, res: Response) {
     const { ticketTypeId } = req.body;
+    console.log(ticketTypeId)
     const { userId } = req;
 
     if (!ticketTypeId) throw invalidDataError('TicketTypeId não foi enviado');

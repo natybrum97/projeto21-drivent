@@ -22,15 +22,16 @@ async function getTickets(userId: number): Promise<Tickets> {
 
 }
 
-async function createTickets(ticketTypeId: number, userId: number): Promise<Tickets>{
+async function createTickets(ticketTypeId: number, userId: number){
 
   const enrollment = await ticketsRepository.searchEnrollment(userId);
+  
   if (!enrollment) throw notFoundError();
 
   const ticketFormat = {
     ticketTypeId,
     enrollmentId: enrollment.id,
-    status: TicketStatus.RESERVED,
+    status: TicketStatus.RESERVED
   };
 
   await ticketsRepository.postTickets(ticketFormat);
