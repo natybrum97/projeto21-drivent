@@ -76,3 +76,14 @@ export type Data = {
   expirationDate: string;
   cvv: string;
 };
+
+export type Body = {
+  ticketId: number;
+  cardData: {
+    issuer: string;
+    number: string;
+    name: string;
+    expirationDate: string;
+    cvv: string;
+  };
+};
