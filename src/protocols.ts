@@ -28,43 +28,51 @@ export type CEP = {
 };
 
 export type TicketType = {
-    id: number,
-    name: string,
-    price: number,
-    isRemote: boolean,
-    includesHotel: boolean,
-    createdAt: Date
-    updatedAt: Date
+  id: number;
+  name: string;
+  price: number;
+  isRemote: boolean;
+  includesHotel: boolean;
+  createdAt: Date;
+  updatedAt: Date;
 };
 
 export type Tickets = {
-  id: number,
-  status: string, //RESERVED | PAID
-  ticketTypeId: number,
-  enrollmentId: number,
+  id: number;
+  status: string; //RESERVED | PAID
+  ticketTypeId: number;
+  enrollmentId: number;
   TicketType: {
-    id: number,
-    name: string,
-    price: number,
-    isRemote: boolean,
-    includesHotel: boolean,
-    createdAt: Date,
-    updatedAt: Date,
-  },
-  createdAt: Date,
-  updatedAt: Date
+    id: number;
+    name: string;
+    price: number;
+    isRemote: boolean;
+    includesHotel: boolean;
+    createdAt: Date;
+    updatedAt: Date;
+  };
+  createdAt: Date;
+  updatedAt: Date;
 };
 
 export type createTickets = {
-  ticketTypeId: number
+  ticketTypeId: number;
 };
 
 export type Payment = {
-  id: number,
-  ticketId: number,
-  value: number,
-  cardIssuer: string, // VISA | MASTERCARD
-  cardLastDigits: string,
-  createdAt: Date,
-  updatedAt: Date,
-}
+  id: number;
+  ticketId: number;
+  value: number;
+  cardIssuer: string; // VISA | MASTERCARD
+  cardLastDigits: string;
+  createdAt: Date;
+  updatedAt: Date;
+};
+
+export type Data = {
+  issuer: string;
+  number: string;
+  name: string;
+  expirationDate: string;
+  cvv: string;
+};

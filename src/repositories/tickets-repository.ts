@@ -1,55 +1,47 @@
-import { prisma } from '@/config';
 import { Ticket } from '@prisma/client';
+import { prisma } from '@/config';
 
 export type CreateTicket = Omit<Ticket, 'id' | 'createdAt' | 'updatedAt'>;
 
 async function getTicketType() {
-
   return prisma.ticketType.findMany();
-
 }
 
 async function searchEnrollment(userId: number) {
-
   return prisma.enrollment.findUnique({
     where: {
-      userId
-    }
+      userId,
+    },
   });
-
 }
 
-async function searchTickets(id : number) {
-
+async function searchTickets(id: number) {
   return prisma.ticket.findUnique({
     where: {
-      enrollmentId: id
+      enrollmentId: id,
     },
     include: {
-      TicketType: true
-    }
+      TicketType: true,
+    },
   });
-
 }
 
 async function postTickets(ticket: CreateTicket) {
-
   const create = await prisma.ticket.create({
     data: {
       ...ticket,
     },
     include: {
-      TicketType: true
-    }
-  })
+      TicketType: true,
+    },
+  });
 
   return create;
-
 }
 
 export const ticketsRepository = {
-    getTicketType,
-    searchEnrollment,
-    searchTickets,
-    postTickets
+  getTicketType,
+  searchEnrollment,
+  searchTickets,
+  postTickets,
 };

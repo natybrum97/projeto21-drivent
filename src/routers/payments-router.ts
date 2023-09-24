@@ -11,8 +11,6 @@ paymentsRouter.use(authenticateToken);
 //ticketsRouter.all('/*', authenticateToken);
 
 // Define as rotas
-paymentsRouter
-  .get('/', paymentsController.getPayment)
-  //.post('/', paymentsController.getPayment);
+paymentsRouter.get('/', paymentsController.getPayment).post('/process', paymentsController.createPayment);
 
 export { paymentsRouter };
