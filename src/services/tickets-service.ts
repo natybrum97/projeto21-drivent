@@ -13,9 +13,11 @@ async function getAllTicketType(): Promise<TicketType[]> {
 async function getTickets(userId: number): Promise<Tickets> {
 
   const enrollment = await ticketsRepository.searchEnrollment(userId);
+
   if (!enrollment) throw notFoundError();
 
   const tickets = await ticketsRepository.searchTickets(enrollment.id);
+  
   if (!tickets) throw notFoundError();
 
   return tickets;

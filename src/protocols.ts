@@ -58,3 +58,13 @@ export type Tickets = {
 export type createTickets = {
   ticketTypeId: number
 };
+
+export type Payment = {
+  id: number,
+  ticketId: number,
+  value: number,
+  cardIssuer: string, // VISA | MASTERCARD
+  cardLastDigits: string,
+  createdAt: Date,
+  updatedAt: Date,
+}
