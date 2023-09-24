@@ -1,7 +1,6 @@
 import { Router } from 'express';
-import { authenticateToken, validateBody } from '@/middlewares';
+import { authenticateToken } from '@/middlewares';
 import { ticketsController } from '@/controllers';
-import { createOrUpdateEnrollmentSchema } from '@/schemas';
 
 const ticketsRouter = Router();
 
@@ -15,6 +14,6 @@ ticketsRouter.use(authenticateToken);
 ticketsRouter
   .get('/types', ticketsController.getTicketType)
   .get('/', ticketsController.getTickets)
-  //.post('/', validateBody(createOrUpdateEnrollmentSchema), ticketsController.getTickets);
+  .post('/', ticketsController.createTickets);
 
 export { ticketsRouter };

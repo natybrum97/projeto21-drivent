@@ -54,3 +54,7 @@ export type Tickets = {
   createdAt: Date,
   updatedAt: Date
 };
+
+export type createTickets = {
+  ticketTypeId: number
+};
