@@ -1,20 +1,14 @@
 import { Router } from 'express';
+import { createTicket, getTicket, getTicketTypes } from '@/controllers';
 import { authenticateToken, validateBody } from '@/middlewares';
-import { ticketsController } from '@/controllers';
-import { ticketsSchema } from '@/schemas/tickets-schemas';
+import { ticketSchema } from '@/schemas/tickets-schemas';
 
 const ticketsRouter = Router();
 
-// Aplica o middleware de autenticação a todas as rotas
-ticketsRouter.use(authenticateToken);
-
-//poderia fazer assim:
-//ticketsRouter.all('/*', authenticateToken);
-
-// Define as rotas
 ticketsRouter
-  .get('/types', ticketsController.getTicketType)
-  .get('/', ticketsController.getTickets)
-  .post('/', validateBody(ticketsSchema), ticketsController.createTickets);
+  .all('/*', authenticateToken)
+  .get('/types', getTicketTypes)
+  .get('/', getTicket)
+  .post('/', validateBody(ticketSchema), createTicket);
 
 export { ticketsRouter };
