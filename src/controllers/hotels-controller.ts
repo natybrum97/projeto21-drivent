@@ -18,7 +18,9 @@ export async function getHotels(req: AuthenticatedRequest, res: Response) {
 
     const { userId } = req;
 
-    const idHotel = Number(req.params.idHotel);
+    const idHotel = Number(req.params.id);
+
+    console.log(idHotel);
 
     const hotel = await hotelsService.getHotelsById(userId, idHotel);
 
