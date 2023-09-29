@@ -11,9 +11,23 @@ async function findTicketType(ticketTypeId: number) {
 async function getHotels() {
     const result = await prisma.hotel.findMany();
     return result;
-  }
+}
+
+async function getHotelsById(idHotel: number) {
+    const result = await prisma.hotel.findUnique({
+        where: {
+            id: idHotel
+        },
+        include:{
+            Rooms: true
+        }
+    })
+    return result;
+}
+
 export const hotelsRepository = {
     findTicketType,
-    getHotels
+    getHotels,
+    getHotelsById
   };
   
