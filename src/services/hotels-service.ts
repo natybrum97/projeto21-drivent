@@ -25,10 +25,12 @@ async function getHotelsById(userId: number, idHotel: number) {
 
     if(ticket.status === "RESERVED" || ticket.TicketType.includesHotel === false || ticket.TicketType.isRemote === true) throw PaymentRequired();
 
-    const hotels = await hotelsRepository.getHotelsById(idHotel);
-    if (!hotels) throw notFoundError();
+    const hotels = await hotelsRepository.getHotels();
+    if (!hotels || hotels.length === 0) throw notFoundError();
 
-    return hotels;
+    const hotelById = await hotelsRepository.getHotelsById(idHotel);
+
+    return hotelById;
 }
 
 export const hotelsService = {
