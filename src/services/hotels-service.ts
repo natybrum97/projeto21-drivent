@@ -9,25 +9,24 @@ async function getHotels(userId: number) {
     const ticket = await ticketsRepository.findTicketByEnrollmentId(enrollment.id);
     if (!ticket) throw notFoundError();
 
-    const hotels = await hotelsRepository.getHotels();
-    if (!hotels) throw notFoundError();
-
     const ticketype = await hotelsRepository.findTicketType(ticket.ticketTypeId);
     if (ticketype.includesHotel === false) throw notFoundError();
 
+    const hotels = await hotelsRepository.getHotels();
+    if (!hotels) throw notFoundError();
 
 
   return hotels;
 }
 
 async function getHotelsById(userId: number) {
-  const enrollment = await hotelsRepository.findWithAddressByUserId(userId);
-  if (!enrollment) throw notFoundError();
+  //const enrollment = await hotelsRepository.findWithAddressByUserId(userId);
+ // if (!enrollment) throw notFoundError();
 
-  const ticket = await hotelsRepository.findTicketByEnrollmentId(enrollment.id);
-  if (!ticket) throw notFoundError();
+ // const ticket = await hotelsRepository.findTicketByEnrollmentId(enrollment.id);
+  //if (!ticket) throw notFoundError();
 
-  return ticket;
+ // return ticket;
 }
 
 export const hotelsService = {
