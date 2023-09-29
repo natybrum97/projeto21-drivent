@@ -8,6 +8,9 @@ export function handleApplicationErrors(
   res: Response,
   next: NextFunction,
 ) {
+
+  console.error(err);
+
   if (err.name === 'CannotEnrollBeforeStartDateError') {
     return res.status(httpStatus.BAD_REQUEST).send({
       message: err.message,
@@ -59,7 +62,9 @@ export function handleApplicationErrors(
   }
 
   if (err.name === 'PaymentRequired') {
-    return res.status(httpStatus.PAYMENT_REQUIRED);
+    return res.status(httpStatus.PAYMENT_REQUIRED).send({
+      message: err.message,
+    });
   }
 
   if (err.hasOwnProperty('status') && err.name === 'RequestError') {
@@ -69,7 +74,6 @@ export function handleApplicationErrors(
   }
 
   /* eslint-disable-next-line no-console */
-  console.error(err);
   res.status(httpStatus.INTERNAL_SERVER_ERROR).send({
     error: 'InternalServerError',
     message: 'Internal Server Error',
