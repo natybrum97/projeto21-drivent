@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1696042334862" clover="3.2.0">
+  <project timestamp="1696042334862" name="All files">
+    <metrics statements="556" coveredstatements="544" conditionals="97" coveredconditionals="83" methods="99" coveredmethods="92" elements="752" coveredelements="719" complexity="0" loc="556" ncloc="556" packages="12" files="71" classes="71"/>
+    <package name="src">
+      <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="app.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/app.ts">
+        <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="33" count="10" type="stmt"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
+      <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="database.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/config/database.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="envs.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/config/envs.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="6" count="23" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="23" type="stmt"/>
+        <line num="13" count="23" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/config/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="75" coveredstatements="75" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
+      <file name="authentication-controller.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/authentication-controller.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="enrollments-controller.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/enrollments-controller.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="events-controller.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/events-controller.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="hotels-controller.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/hotels-controller.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="payments-controller.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/payments-controller.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+      </file>
+      <file name="tickets-controller.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/tickets-controller.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+      <file name="users-controller.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/controllers/users-controller.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.errors">
+      <metrics statements="36" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="9"/>
+      <file name="cannot-enroll-before-start-date-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/cannot-enroll-before-start-date-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="conflict-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/conflict-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="duplicate-email-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/duplicate-email-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+      <file name="enrollment-not-found-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/enrollment-not-found-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/index.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+      </file>
+      <file name="invalid-cep-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/invalid-cep-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="invalid-credentials-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/invalid-credentials-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+      </file>
+      <file name="invalid-data-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/invalid-data-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="invalid-email-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/invalid-email-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="not-found-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/not-found-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
+      </file>
+      <file name="payment-required.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/payment-required.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+      </file>
+      <file name="request-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/request-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="unauthorized-error.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/errors/unauthorized-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middlewares">
+      <metrics statements="53" coveredstatements="49" conditionals="22" coveredconditionals="19" methods="7" coveredmethods="6"/>
+      <file name="authentication-middleware.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/middlewares/authentication-middleware.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="68" type="stmt"/>
+        <line num="8" count="68" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="59" type="stmt"/>
+        <line num="11" count="59" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="59" type="stmt"/>
+        <line num="15" count="50" type="stmt"/>
+        <line num="16" count="50" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="41" type="stmt"/>
+        <line num="19" count="41" type="stmt"/>
+      </file>
+      <file name="error-handling-middleware.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/middlewares/error-handling-middleware.ts">
+        <metrics statements="25" coveredstatements="22" conditionals="17" coveredconditionals="15" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="12" count="65" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="18" count="63" type="cond" truecount="3" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="62" type="cond" truecount="3" falsecount="0"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="30" count="51" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="11" type="stmt"/>
+        <line num="36" count="40" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="42" count="28" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="48" count="28" type="cond" truecount="1" falsecount="0"/>
+        <line num="49" count="20" type="stmt"/>
+        <line num="54" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="7" type="cond" truecount="0" falsecount="1"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="68" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/middlewares/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+      </file>
+      <file name="validation-middleware.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/middlewares/validation-middleware.ts">
+        <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="50" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="50" type="stmt"/>
+        <line num="15" count="31" type="stmt"/>
+        <line num="19" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="21" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="23" count="26" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.repositories">
+      <metrics statements="54" coveredstatements="53" conditionals="1" coveredconditionals="1" methods="18" coveredmethods="17"/>
+      <file name="address-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/address-repository.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+      </file>
+      <file name="authentication-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/authentication-repository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="11" count="50" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+      </file>
+      <file name="enrollments-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/enrollments-repository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="28" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+      </file>
+      <file name="events-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/events-repository.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="hotels-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/hotels-repository.ts">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="payments-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/payments-repository.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/tickets-repository.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="10" type="stmt"/>
+      </file>
+      <file name="users-repository.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/repositories/users-repository.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="11" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routers">
+      <metrics statements="53" coveredstatements="53" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="authentication-router.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/authentication-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+      </file>
+      <file name="enrollments-router.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/enrollments-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+      <file name="events-router.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/events-router.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+      </file>
+      <file name="hotels-router.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/hotels-router.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="paymets-router.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/paymets-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-router.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/tickets-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+      <file name="users-router.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/routers/users-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.schemas">
+      <metrics statements="30" coveredstatements="29" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="authentication-schemas.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/schemas/authentication-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+      </file>
+      <file name="enrollments-schemas.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/schemas/enrollments-schemas.ts">
+        <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="5" count="13" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="23" count="351" type="stmt"/>
+        <line num="31" count="29" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="29" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="28" type="stmt"/>
+        <line num="41" count="19" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="19" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="18" type="stmt"/>
+        <line num="51" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="23" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/schemas/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+      </file>
+      <file name="payments-schemas.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/schemas/payments-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-schemas.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/schemas/tickets-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+      </file>
+      <file name="users-schemas.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/schemas/users-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="136" coveredstatements="135" conditionals="44" coveredconditionals="41" methods="22" coveredmethods="22"/>
+      <file name="authentication-service.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/authentication-service.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="25" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="42" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="10" type="stmt"/>
+      </file>
+      <file name="enrollments-service.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/enrollments-service.ts">
+        <metrics statements="25" coveredstatements="24" conditionals="9" coveredconditionals="7" methods="5" coveredmethods="5"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+      </file>
+      <file name="events-service.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/events-service.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="10" type="stmt"/>
+      </file>
+      <file name="hotels-service.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/hotels-service.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="18" coveredconditionals="18" methods="2" coveredmethods="2"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="payments-service.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/payments-service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-service.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/tickets-service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+      </file>
+      <file name="users-service.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/services/users-service.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="prisma-utils.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/utils/prisma-utils.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+      </file>
+      <file name="request.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/src/utils/request.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests">
+      <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="helpers.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/helpers.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="61" type="stmt"/>
+        <line num="9" count="61" type="stmt"/>
+        <line num="10" count="61" type="stmt"/>
+        <line num="11" count="61" type="stmt"/>
+        <line num="12" count="61" type="stmt"/>
+        <line num="13" count="61" type="stmt"/>
+        <line num="14" count="61" type="stmt"/>
+        <line num="15" count="61" type="stmt"/>
+        <line num="16" count="61" type="stmt"/>
+        <line num="17" count="61" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="21" count="41" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="41" type="stmt"/>
+        <line num="24" count="41" type="stmt"/>
+        <line num="26" count="41" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.factories">
+      <metrics statements="56" coveredstatements="56" conditionals="18" coveredconditionals="17" methods="13" coveredmethods="13"/>
+      <file name="enrollments-factory.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/enrollments-factory.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="31" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="31" type="stmt"/>
+        <line num="35" count="9" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+      <file name="events-factory.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/events-factory.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+      <file name="hotels-factory.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/hotels-factory.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+      </file>
+      <file name="payments-factory.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/payments-factory.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="sessions-factory.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/sessions-factory.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="41" type="stmt"/>
+        <line num="8" count="41" type="stmt"/>
+      </file>
+      <file name="tickets-factory.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/tickets-factory.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="16" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="38" count="9" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="49" count="9" type="stmt"/>
+        <line num="50" count="19" type="stmt"/>
+      </file>
+      <file name="users-factory.ts" path="/home/nathalia/Área de Trabalho/projeto21-drivent/drivent-back-main/tests/factories/users-factory.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="102" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="102" type="stmt"/>
+        <line num="10" count="102" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

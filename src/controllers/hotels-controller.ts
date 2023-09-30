@@ -4,32 +4,24 @@ import { AuthenticatedRequest } from '@/middlewares';
 import { hotelsService } from '@/services/hotels-service';
 
 export async function getHotels(req: AuthenticatedRequest, res: Response) {
+  const { userId } = req;
 
-    const { userId } = req;
+  const hotels = await hotelsService.getHotels(userId);
 
-    const hotels = await hotelsService.getHotels(userId);
+  res.status(httpStatus.OK).send(hotels);
+}
 
-    console.log(hotels);
+export async function getHotelsById(req: AuthenticatedRequest, res: Response) {
+  const { userId } = req;
 
-    res.status(httpStatus.OK).send(hotels);
-  }
+  const idHotel = Number(req.params.id);
 
-  export async function getHotelsById(req: AuthenticatedRequest, res: Response) {
+  const hotel = await hotelsService.getHotelsById(userId, idHotel);
 
-    const { userId } = req;
+  res.status(httpStatus.OK).send(hotel);
+}
 
-    const idHotel = Number(req.params.id);
-
-    console.log(idHotel);
-
-    const hotel = await hotelsService.getHotelsById(userId, idHotel);
-
-    res.status(httpStatus.OK).send(hotel);
-  }
-
-  export const hotelsController = {
-    getHotels,
-    getHotelsById
-  };
-  
-  
+export const hotelsController = {
+  getHotels,
+  getHotelsById,
+};
