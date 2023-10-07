@@ -3,14 +3,14 @@ import { prisma } from '@/config';
 import { CreateTicketParams } from '@/protocols';
 
 async function findBooking(userId: number) {
-    return await prisma.booking.findUnique({
-        where: {
-          userId: userId,
-        },
-        include: {
-          Room: true,
-        },
-      });
+  return await prisma.booking.findUnique({
+    where: {
+      userId: userId,
+    },
+    include: {
+      Room: true,
+    },
+  });
 }
 
 async function existRoomId(roomId: number) {
@@ -29,7 +29,7 @@ async function createBooking(userId: number, roomId: number) {
     data: {
       userId,
       roomId,
-    }
+    },
   });
 }
 
@@ -37,7 +37,7 @@ async function existBookingId(bookingId: number) {
   return await prisma.booking.findFirst({
     where: {
       id: bookingId,
-    }
+    },
   });
 }
 
@@ -48,15 +48,14 @@ async function putBooking(bookingId: number, roomId: number) {
     },
     data: {
       roomId,
-    }
+    },
   });
 }
 
 export const bookingRepository = {
-    findBooking,
-    existRoomId,
-    createBooking,
-    existBookingId,
-    putBooking
-  };
-  
+  findBooking,
+  existRoomId,
+  createBooking,
+  existBookingId,
+  putBooking,
+};
