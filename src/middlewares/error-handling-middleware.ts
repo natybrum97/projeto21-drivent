@@ -8,6 +8,7 @@ export function handleApplicationErrors(
   res: Response,
   next: NextFunction,
 ) {
+
   if (err.name === 'CannotEnrollBeforeStartDateError') {
     return res.status(httpStatus.BAD_REQUEST).send({
       message: err.message,
@@ -58,6 +59,10 @@ export function handleApplicationErrors(
     return res.status(httpStatus.BAD_REQUEST).send(err.message);
   }
 
+  if (err.name === 'ForbiddenError') {
+    return res.status(httpStatus.FORBIDDEN).send(err.message);
+  }
+
   if (err.name === 'CannotListHotelsError') {
     return res.status(httpStatus.PAYMENT_REQUIRED).send(err.message);
   }
@@ -67,6 +72,8 @@ export function handleApplicationErrors(
       message: err.message,
     });
   }
+
+  console.log(err);
 
   /* eslint-disable-next-line no-console */
   console.error(err);
